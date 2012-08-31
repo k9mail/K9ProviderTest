@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">K9 External Provider Test</string>
+    <string name="menu_query_inbox">Refresh Inbox</string>
+    <string name="inbox">Inbox</string>
+    <string name="loading">Loading...</string>
+    <string name="last_refresh">Refresh: </string>
 </resources>

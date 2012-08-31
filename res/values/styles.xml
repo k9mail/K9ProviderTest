@@ -2,4 +2,51 @@
 
     <style name="AppTheme" parent="android:Theme.Light" />
 
+    <style name="Email" />
+
+    <style name="Email.ItemColor">
+        <item name="android:layout_gravity">left|center_vertical</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_width">8.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:paddingLeft">2dp</item>
+    </style>
+
+    <style name="Email.Sender">
+        <item name="android:textSize">15sp</item>
+        <item name="android:linksClickable">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingRight">16dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="Email.Subject">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    
+	<style name="Email.Summary">
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+    
+    <style name="Email.Date">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:layout_gravity">right|center_vertical</item>
+    </style>
+
 </resources>

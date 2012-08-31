@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/inbox"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+    
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"/>
+    
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/loading"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+    
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|left"
+            android:textSize="10sp"
+            android:text="@string/last_refresh" />
+
+        <TextView
+            android:id="@+id/footer_text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="10sp"
+            android:gravity="center_vertical|left" />
+    </LinearLayout>
+    
+</LinearLayout>

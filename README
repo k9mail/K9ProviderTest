@@ -1,0 +1,5 @@
+Run app at least once to register broadcast receiver.
+
+Usage:
+* Monitor all broadcasts with LogCat filter for K9ProviderTest.ExternalBroadcastsReceiver tag.
+* Run app for sample usage (Uses K9ProviderTest.MainActivity as log tag)
